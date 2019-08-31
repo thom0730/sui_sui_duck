@@ -4,6 +4,7 @@
 #include "model.hpp"
 #include "duck.hpp"
 #include "Cv.hpp"
+#include "Box.hpp"
 
 //--------------------------------------------------------------
 void ofApp::setup(){
@@ -16,6 +17,7 @@ void ofApp::setup(){
     stateMachine.addState<Particle>();
     stateMachine.addState<duck>();
     stateMachine.addState<Cv>();
+    stateMachine.addState<Box>();
 	stateMachine.changeState("kinect");
     
     receiver.setup(PORT);
@@ -67,6 +69,9 @@ void ofApp::keyPressed(int key){
     }
     if (key == '5') {
         stateMachine.changeState("Cv");
+    }
+    if (key == '6') {
+        stateMachine.changeState("Box");
     }
     
 
