@@ -1,0 +1,10 @@
+ofxAssimpModelLoader
+ofxCv
+ofxGui
+ofxKinect
+ofxOpenCv
+ofxOsc
+ofxPostGlitch
+ofxRollingCam
+ofxStateMachine
+ofxXmlSettings

@@ -1,0 +1,10 @@
+<group>
+	<Threshhold>127</Threshhold>
+	<Min_Radius>10</Min_Radius>
+	<Max_Radius>200</Max_Radius>
+	<Point_Size>3</Point_Size>
+	<Z_Position>-1000</Z_Position>
+	<Z_Scale>1</Z_Scale>
+	<Pixel_Step>2</Pixel_Step>
+<group/>
+</group>
